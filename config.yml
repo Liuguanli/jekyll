@@ -1,8 +1,1 @@
 baseurl: /jekyll
-title: <title1>
-email: <email1>
-description: > # <description>
-twitter_username: <twitter_username>
-github_username:  <github_username>
-kramdown:
-  input: GFM
