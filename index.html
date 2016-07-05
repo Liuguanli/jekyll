@@ -3,7 +3,7 @@ layout: default
 title: 我的Blog
 ---
 <h2>{{ page.title }}</h2>
-<p>最新的文章</p>
+<p>文章</p>
 <ul>
 {% for blog in site.blogs %}
 <li>{{ blog.date | date_to_string }} <a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.title }}</a></li>
