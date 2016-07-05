@@ -5,7 +5,7 @@ title: 我的Blog
 <h2>{{ page.title }}</h2>
 <p>文章</p>
 <ul>
-{% for blog in site.blogs %}
+{% for blog in site.posts %}
 <li>{{ blog.date | date_to_string }} <a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.title }}</a></li>
 {% endfor %}
 </ul>
