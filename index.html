@@ -1,12 +1,13 @@
 ---
 layout: default
 title: 我的Blog
+permalink=/jekyll/2016-07-04-helloworld.html
 ---
 <h2>{{ page.title }}</h2>
 <p>文章</p>
 <ul>
 {% for blog in site.posts %}
-<li>{{ blog.date | date_to_string }} <a href="{{ site.baseurl }}{{ blog.url }}">{{ blog.title }}</a></li>
+<li>{{ blog.date | date_to_string }} <a href="{{site.baseurl}}{{ blog.url }}">{{ blog.title }}</a></li>
 <li>
 	<a>{{ site.baseurl }}{{ blog.url }}</a>
 </li>
